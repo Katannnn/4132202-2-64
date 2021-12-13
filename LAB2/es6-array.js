@@ -72,4 +72,5 @@ let firstkey = numbers.findIndex(over10fn);
 console.log(firstkey);
 
 const alphabet = Array.from("ABCDEF");
-console.log(alphabet);
+console.log(alphabet); 
+//0
