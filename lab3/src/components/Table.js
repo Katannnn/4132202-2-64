@@ -1,9 +1,6 @@
 import React from 'react';
-const cars = [
-    {id:1,brand:"Toyota",year:2010},
-    {id:2,brand:"mazda",year:2012}
-];
- const getTable = (Car) => {
+
+ const getTable = (cars) => {
     return cars.map((car)=>{
         const {id,brand,year} = car
         return (
@@ -17,7 +14,10 @@ const cars = [
  };
 
 function Table(){
-
+    const cars = [
+        {id:1,brand:"Toyota",year:2010},
+        {id:2,brand:"mazda",year:2012}
+    ];
     return (
         <table>
             <tbody>
