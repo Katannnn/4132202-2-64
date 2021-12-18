@@ -1,0 +1,30 @@
+import React from 'react';
+const cars = [
+    {id:1,brand:"Toyota",year:2010},
+    {id:2,brand:"mazda",year:2012}
+];
+ const getTable = (Car) => {
+    return cars.map((car)=>{
+        const {id,brand,year} = car
+        return (
+            <tr>
+                <td>{id}</td>
+                <td>{brand}</td>
+                <td>{year}</td>
+            </tr>
+        )
+    })
+ };
+
+function Table(){
+
+    return (
+        <table>
+            <tbody>
+                {getTable(cars)}
+            </tbody>
+        </table>
+    )
+}
+
+export default Table

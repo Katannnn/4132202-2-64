@@ -13,7 +13,7 @@ function App() {
           className="App-link"
           href="https://facebook.com/katan.fifa"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="Katan"
         >
           กตัณณ์
         </a>
