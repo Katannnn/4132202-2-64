@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  Pussy:
+    image: nginx
+    ports:
+      - "8000:80"
+    volumes:
+      - ./www:/usr/share/nginx/html
